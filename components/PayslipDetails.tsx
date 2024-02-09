@@ -20,3 +20,6 @@ const PayslipDetails: React.FC = () => {
 };
 
 export default PayslipDetails;
+
+//https://www.figma.com/file/RSI2Uhh1YEkkVMyEsIhx3a/Payslip-app?type=design&node-id=1258-21454&mode=design&t=3VGUP9ZriFFGdHVB-0
+
