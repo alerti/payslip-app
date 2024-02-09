@@ -1,0 +1,80 @@
+[
+  {
+    "Id": "DEW0W0-123",
+    "About": {
+      "Title": "Senior Sofwtare engineer",
+      "Location": "",
+      "WorkMobilePhone": ""
+    },
+    "PersonalInformation": {
+      "ContactDetails": {
+        "Id": "DEW0W0-123",
+        "firstName": "John",
+        "lastName": "Doe",
+        "Gender": "",
+        "Title": "Senior, Software Engineer",
+        "Department": "Engineering",
+        "Email": "gale.nolau@servicenow.com",
+        "WorkPhone": "",
+        "Nickname": "doe"
+      },
+      "EmploymentDetails": {
+        "MyTeam": {
+          "Manager": {
+            "Id": "DEW0W0-100",
+            "firstName": "Anita",
+            "lastName": "Lugomer",
+            "Title": "Director, Product Design",
+            "Gender": "She/Her"
+          },
+          "DirectReports": [
+            {
+              "Id": "DEW0W0-124",
+              "firstName": "Fred",
+              "lastName": "Garner",
+              "Title": "Staff Product Designer"
+            },
+            {
+              "Id": "DEW0W0-125",
+              "firstName": "Julie",
+              "lastName": "Chen",
+              "Title": "Product Designer"
+            },
+            {
+              "Id": "DEW0W0-126",
+              "firstName": "Sam",
+              "lastName": "Sorokin",
+              "Title": "Sr. Product Designer"
+            }
+          ]
+        },
+        "Coworkers": [
+          {
+            "Id": "DEW0W0-127",
+            "firstName": "Robert",
+            "lastName": "Fox",
+            "Title": "Sr. Manager, Product Design"
+          }
+        ]
+      }
+    },
+    "MyContacts": [
+      {
+        "firstName": "John",
+        "lastName": "Done",
+        "Relationship": "Cousin"
+      },
+      {
+        "firstName": "John",
+        "lastName": "Doe",
+        "Relationship": "Sister"
+      },
+      {
+        "firstName": "Done",
+        "lastName": "Doe",
+        "Relationship": "Child"
+      }
+    ],
+    "EmergencyContact": false
+  }
+]
