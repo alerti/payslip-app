@@ -6,6 +6,7 @@ export interface Profile {
     email: string;
     workPhone: string;
     nickname: string;
+    gender: string;
 }
 
 
@@ -26,7 +27,7 @@ export interface MyContact {
     relationship: string;
 }
 
-export interface Profile {
+export interface WorkerProfile {
     personalInformation: {
         contactDetails: Profile;
         employmentDetails: {
