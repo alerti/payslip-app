@@ -14,8 +14,7 @@ const PayslipList: React.FC = () => {
         <Navbar />
 
 
-
-      <AvatarIcon/>
+      <AvatarIcon firstName="John" lastName="Doe" />
 
       {payslips.map((payslip: Payslip) => (
         <div key={payslip.id} onClick={() => dispatch(selectPayslip(payslip))}>
