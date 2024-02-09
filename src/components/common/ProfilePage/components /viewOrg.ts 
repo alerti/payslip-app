@@ -1,6 +1,0 @@
-
-
-
-export interface ViewOrgButtonProps {
-  string: string;
-}
