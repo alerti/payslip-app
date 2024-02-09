@@ -4,7 +4,7 @@ import {Profile} from "../../../../types/Profile";
 
 const ProfileListing: React.FunctionComponent<Profile> = (profile: Profile) => {
     return (
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 my-3">
             <AvatarIcon {...profile} />
             <div>
                 <h2 className="text-primary text-semibold leading-6 text-base">{`${profile.firstName} ${profile.lastName}`}
