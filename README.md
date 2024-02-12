@@ -9,8 +9,6 @@ This is a cross-platform application built with React and Capacitor. It allows u
 - [Adding Capacitor](#adding-capacitor)
 - [Running the App](#running-the-app)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Prerequisites
 
