@@ -40,3 +40,8 @@ export interface WorkerProfile {
     about: About;
 }
 
+export interface WorkerPayslip {
+    month: string;
+    file: string;
+    error: string;
+}

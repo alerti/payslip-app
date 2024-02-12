@@ -16,7 +16,6 @@ const PayslipList: React.FC = () => {
       <>
     <div>
         <Navbar />
-       <ProfilePage />
         <StaffProfileModal {...profiles[0]} />
 
       {payslips.map((payslip: Payslip) => (

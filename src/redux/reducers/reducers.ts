@@ -14,7 +14,7 @@ const workerProfile: WorkerProfile = {
       lastName: "Doe",
       title: "Senior, Software Engineer",
       department: "Engineering",
-      email: "gale.nolau@servicenow.com",
+      email: "joe@deel.com",
       workPhone: "",
       nickname: "doe",
       gender: ""
@@ -108,9 +108,33 @@ const initialState: AppStore = {
   selectedPayslip: null,
   profiles: [ workerProfile ],
   payslips: [
-    // Add your mock data here
+    {
+      id: "1",
+      fromDate: "2024-01-01",
+      toDate: "2024-01-31",
+      file: "payslip1.pdf",
+      month: "January",
+      year: "2024",
+    },
+    {
+      id: "2",
+      fromDate: "2024-02-01",
+      toDate: "2024-02-28",
+      file: "payslip2.pdf",
+      month: "February",
+      year: "2024",
+    },
+    {
+      id: "3",
+      fromDate: "2024-03-01",
+      toDate: "2024-03-31",
+      file: "payslip3.pdf",
+      month: "March",
+      year: "2024",
+    },
   ],
 };
+
 
 function rootReducer(state = initialState, action: any) {
   switch (action.type) {
