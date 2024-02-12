@@ -1,0 +1,80 @@
+[
+  {
+    "id": "DEW0W0-123",
+    "about": {
+      "title": "Senior, Software Engineer",
+      "location": "",
+      "workMobilePhone": ""
+    },
+    "personalInformation": {
+      "contactDetails": {
+        "id": "DEW0W0-123",
+        "firstName": "John",
+        "lastName": "Doe",
+        "gender": "",
+        "title": "Senior, Software Engineer",
+        "department": "Engineering",
+        "email": "john.doe@deel.com",
+        "workPhone": "",
+        "nickname": "doe"
+      },
+      "employmentDetails": {
+        "myTeam": {
+          "manager": {
+            "id": "DEW0W0-100",
+            "firstName": "Anita",
+            "lastName": "Lugomer",
+            "title": "Director, Product Design",
+            "gender": "She/Her"
+          },
+          "directReports": [
+            {
+              "id": "DEW0W0-124",
+              "firstName": "Fred",
+              "lastName": "Garner",
+              "title": "Staff Product Designer"
+            },
+            {
+              "id": "DEW0W0-125",
+              "firstName": "Julie",
+              "lastName": "Chen",
+              "title": "Product Designer"
+            },
+            {
+              "id": "DEW0W0-126",
+              "firstName": "Sam",
+              "lastName": "Sorokin",
+              "title": "Sr. Product Designer"
+            }
+          ]
+        },
+        "coworkers": [
+          {
+            "id": "DEW0W0-127",
+            "firstName": "Robert",
+            "lastName": "Fox",
+            "title": "Sr. Manager, Product Design"
+          }
+        ]
+      }
+    },
+    "myContacts": [
+      {
+        "firstName": "John",
+        "lastName": "Done",
+        "relationship": "Cousin"
+      },
+      {
+        "firstName": "John",
+        "lastName": "Doe",
+        "relationship": "Sister"
+      },
+      {
+        "firstName": "Done",
+        "lastName": "Doe",
+        "relationship": "Child"
+      }
+    ],
+    "emergencyContact": false
+  }
+]

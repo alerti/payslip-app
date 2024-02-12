@@ -1,7 +1,9 @@
 import type { StorybookConfig } from "@storybook/react-webpack5";
+import {string}                 from "prop-types";
 
 const config: StorybookConfig = {
   stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
+
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
@@ -18,7 +20,8 @@ const config: StorybookConfig = {
     },
   },
   docs: {
-    autodocs: "tag",
+    autodocs : "tag",
+    defaultName: 'Payslip Documentation'
   },
   staticDirs: ["../public"],
 };

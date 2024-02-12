@@ -3,4 +3,6 @@ export interface Payslip {
     fromDate: string;
     toDate: string;
     file: string;
+    month: string;
+    year: string;
   }

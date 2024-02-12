@@ -3,6 +3,7 @@ import { Provider }   from 'react-redux';
 import {store}        from "./redux/store/store";
 import PayslipList    from './components/PayslipList';
 import PayslipDetails from './components/PayslipDetails';
+import './styles.css';
 
 const App: React.FC = () => {
   return (
