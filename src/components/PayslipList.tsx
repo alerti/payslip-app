@@ -3,9 +3,9 @@ import { useSelector, useDispatch } from 'react-redux';
 import { Payslip } from '../types/Payslip';
 import {selectPayslip} from '../redux/actions/actions';
 import Navbar          from "./common/navbar/Navbar";
-import ProfileListing from "./common/menu/profileListing";
 import ProfilePage from "./common/profilepage/profilemainPage";
 import {AppStore} from "../redux/reducers/reducers";
+import StaffProfileModal from "./modal/staffProfile";
 
 const PayslipList: React.FC = () => {
   const dispatch = useDispatch();
@@ -16,11 +16,7 @@ const PayslipList: React.FC = () => {
       <>
     <div>
         <Navbar />
-
-      <ProfilePage />
-
-
-      <ProfileListing {...profiles[0].personalInformation.contactDetails} />
+        <StaffProfileModal {...profiles[0]} />
 
       {payslips.map((payslip: Payslip) => (
         <div key={payslip.id} onClick={() => dispatch(selectPayslip(payslip))}>
